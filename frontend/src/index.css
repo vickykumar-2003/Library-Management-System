@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-slate-800 antialiased font-sans;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-sm rounded-xl;
+}
+
+.table-row-hover {
+  @apply hover:bg-slate-50 transition-colors duration-150;
+}
